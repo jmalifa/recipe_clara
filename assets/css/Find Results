@@ -1,0 +1,154 @@
+Searching 59 files for "$topbar-bg"
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/main.scss:
+   65  $include-html-top-bar-classes: $include-html-classes;
+   66  
+   67: $topbar-bg: #CDDE47;
+   68  
+   69  /* ==========================================================================
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/foundation/_settings.scss:
+ 1136  
+ 1137  // Background color for the top bar
+ 1138: // $topbar-bg-color: #333;
+ 1139: // $topbar-bg: $topbar-bg-color;
+ 1140  
+ 1141  // Height and margin
+ ....
+ 1196  
+ 1197  // Divider Styles
+ 1198: // $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
+ 1199: // $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
+ 1200  
+ 1201  // Sticky Class
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/foundation/components/_top-bar.scss:
+   13  
+   14  // Background color for the top bar
+   15: $topbar-bg-color: #333 !default;
+   16: $topbar-bg: $topbar-bg-color !default;
+   17  
+   18  // Height and margin
+   ..
+   41  $topbar-link-font-size: rem-calc(13) !default;
+   42  $topbar-link-hover-lightness: -10% !default; // Darken by 10%
+   43: $topbar-link-bg: $topbar-bg !default;
+   44  $topbar-link-bg-hover: #272727 !default;
+   45  $topbar-link-bg-active: $primary-color !default;
+   ..
+   74  
+   75  // Divider Styles
+   76: $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%) !default;
+   77: $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%) !default;
+   78  
+   79  // Sticky Class
+   ..
+  109      .contain-to-grid {
+  110        width: 100%;
+  111:       background: $topbar-bg;
+  112  
+  113        .top-bar { margin-bottom: $topbar-margin-bottom; }
+  ...
+  146        line-height: $topbar-height;
+  147        position: relative;
+  148:       background: $topbar-bg;
+  149        margin-bottom: $topbar-margin-bottom;
+  150  
+  ...
+  255          background: transparent;
+  256  
+  257:         .title-area { background: $topbar-bg; }
+  258  
+  259          .toggle-topbar {
+  ...
+  430      @media #{$topbar-media-query} {
+  431        .top-bar {
+  432:         background: $topbar-bg;
+  433          @include clearfix;
+  434          overflow: visible;
+  ...
+  447          }
+  448  
+  449:         &.expanded { background: $topbar-bg; }
+  450        }
+  451  
+
+17 matches across 3 files
+
+
+Searching 59 files for "$topbar-bg"
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/main.scss:
+   65  $include-html-top-bar-classes: $include-html-classes;
+   66  
+   67: $topbar-bg: #CDDE47;
+   68  
+   69  /* ==========================================================================
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/foundation/_settings.scss:
+ 1136  
+ 1137  // Background color for the top bar
+ 1138: // $topbar-bg-color: #333;
+ 1139: // $topbar-bg: $topbar-bg-color;
+ 1140  
+ 1141  // Height and margin
+ ....
+ 1196  
+ 1197  // Divider Styles
+ 1198: // $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
+ 1199: // $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
+ 1200  
+ 1201  // Sticky Class
+
+/Users/jarrett.malifa/Documents/projects/recipe_clara/assets/css/foundation/components/_top-bar.scss:
+   13  
+   14  // Background color for the top bar
+   15: $topbar-bg-color: #333 !default;
+   16: $topbar-bg: $topbar-bg-color !default;
+   17  
+   18  // Height and margin
+   ..
+   41  $topbar-link-font-size: rem-calc(13) !default;
+   42  $topbar-link-hover-lightness: -10% !default; // Darken by 10%
+   43: $topbar-link-bg: $topbar-bg !default;
+   44  $topbar-link-bg-hover: #272727 !default;
+   45  $topbar-link-bg-active: $primary-color !default;
+   ..
+   74  
+   75  // Divider Styles
+   76: $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%) !default;
+   77: $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%) !default;
+   78  
+   79  // Sticky Class
+   ..
+  109      .contain-to-grid {
+  110        width: 100%;
+  111:       background: $topbar-bg;
+  112  
+  113        .top-bar { margin-bottom: $topbar-margin-bottom; }
+  ...
+  146        line-height: $topbar-height;
+  147        position: relative;
+  148:       background: $topbar-bg;
+  149        margin-bottom: $topbar-margin-bottom;
+  150  
+  ...
+  255          background: transparent;
+  256  
+  257:         .title-area { background: $topbar-bg; }
+  258  
+  259          .toggle-topbar {
+  ...
+  430      @media #{$topbar-media-query} {
+  431        .top-bar {
+  432:         background: $topbar-bg;
+  433          @include clearfix;
+  434          overflow: visible;
+  ...
+  447          }
+  448  
+  449:         &.expanded { background: $topbar-bg; }
+  450        }
+  451  
+
+17 matches across 3 files
