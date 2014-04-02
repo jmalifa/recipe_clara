@@ -107,6 +107,7 @@ $third-color:#4D5B46;
     
 }
 
+
 .todays_recipe {
     margin-top:45px;
     position:relative;
@@ -188,26 +189,121 @@ $third-color:#4D5B46;
     }
 }
 
+.category_head {
+    height:100px;
+    width:100%;
+    position:relative;
+
+    img {
+        position:absolute;
+        bottom:-40px;
+        left:-25px;
+    }
+}
+
 .row1 {
     width:202px;
-    margin-bottom:20px;
+    margin:0px 5px 30px;
+
 }
 
 .row2 {
     width:202px;
-    margin-bottom:20px;
+    margin:0px 5px 30px;
+
 }
 .row3 {
     width:202px;    
-    margin-bottom:20px;
+    margin:0px 5px 30px;
+
 }
 
 .meal_desc {
-    border:1px black solid;
+    border:1px #DE7047 solid;
 
     h2 {
-        font-size:20px;
+        font-family:Nexa Light;
+        font-size:16px;
+        text-align:center;
+        padding-top:10px;
     }
+}
+.filter_container {
+   
+    h1 {
+        
+        margin:0px;
+        background-color:#FCE8BE;
+        padding:15px 0px 0px 10px;
+        font-size:18px;
+        font-family:Nexa Bold;
+    }
+
+    .filter {
+        border:8px #FCE8BE solid;
+
+   
+    }
+}
+
+.button {
+    display:list-item;
+    background: none;   
+    color:black;
+    padding-left:10px;
+    font-family:Nexa Light;
+    font-size:18px;
+
+
+}
+
+.button:hover {
+    background-color:$secondary-color;
+}
+
+.button:active {
+    background-color:$third-color;
+}
+
+.is-checked {
+    background-color:white;
+}
+
+.categories {
+    margin-top:95px;
+    height:340px;
+
+    h2 {
+    background-color:$primary-color;
+    font-family:Nexa Light;
+    text-align:center;
+    font-size:18px;
+    color:white;
+    padding-top:5px;
+
+    }
+
+    a {
+    color:black;
+    }
+        p {
+        margin-top:20px;
+        text-align:center;
+        font-family:Nexa Light;
+        font-size:16px;
+        }
+}
+
+.recipe_head {
+    
+    h1 {
+        background-color:rgba(222,112,71,0.76);
+        font-family:Nexa Bold;
+        font-size:28px;
+        width:100%;
+    }
+   
+
 }
 
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -4279,7 +4280,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
-        color: white;
+        color: #4d5b46;
         width: 50%;
         display: block;
         padding: 0 15px; }
@@ -4288,7 +4289,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
-      color: white;
+      color: #4d5b46;
       text-transform: uppercase;
       font-size: 0.8125rem;
       font-weight: bold;
@@ -4337,7 +4338,7 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    background: #4d5b46;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -4349,33 +4350,33 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: white;
+    color: #4d5b46;
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none;
-    background: #333333; }
+    background: #4d5b46; }
     .top-bar-section ul li > a.button {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
+      background-color: #de7047;
       border-color: #007095;
       color: white; }
       .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-        background-color: #007095; }
+        background-color: #c75024; }
       .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
         color: white; }
     .top-bar-section ul li > a.button.secondary {
-      background-color: #e7e7e7;
+      background-color: #cdde47;
       border-color: #007095;
-      color: #333333; }
+      color: white; }
       .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-        background-color: #b9b9b9; }
+        background-color: #b4c724; }
       .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-        color: #333333; }
+        color: white; }
     .top-bar-section ul li > a.button.success {
       background-color: #43ac6a;
       border-color: #007095;
@@ -4396,21 +4397,21 @@ meta.foundation-mq-topbar {
     font-size: 0.8125rem;
     padding-right: 15px;
     padding-left: 15px;
-    background-color: #008cba;
+    background-color: #de7047;
     border-color: #007095;
     color: white; }
     .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-      background-color: #007095; }
+      background-color: #c75024; }
     .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
       color: white; }
     .top-bar-section ul li > button.secondary {
-      background-color: #e7e7e7;
+      background-color: #cdde47;
       border-color: #007095;
-      color: #333333; }
+      color: white; }
       .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-        background-color: #b9b9b9; }
+        background-color: #b4c724; }
       .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-        color: #333333; }
+        color: white; }
     .top-bar-section ul li > button.success {
       background-color: #43ac6a;
       border-color: #007095;
@@ -4428,14 +4429,14 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #272727;
-    color: white; }
+    background: #cdde47;
+    color: #de7047; }
   .top-bar-section ul li.active > a {
-    background: #008cba;
+    background: #4d5b46;
     color: white; }
     .top-bar-section ul li.active > a:hover {
-      background: #0078a0;
-      color: white; }
+      background: #4d5b46;
+      color: #de7047; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -4488,7 +4489,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li.title h5 {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
-          color: white;
+          color: #4d5b46;
           line-height: 22.5px;
           display: block; }
       .top-bar-section .dropdown li.has-form {
@@ -4548,21 +4549,22 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #272727;
-      color: white; }
+      background: #cdde47;
+      color: #de7047; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       background: #cdde47; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #272727; }
+        background: #cdde47; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #008cba; }
+      background: #4d5b46; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0; }
+        background: #4d5b46;
+        color: #cdde47; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -4639,10 +4641,10 @@ meta.foundation-mq-topbar {
         left: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
-    color: white; }
+    background: #cdde47;
+    color: #de7047; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #4d5b46;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -4652,6 +4654,10 @@ meta.foundation-mq-topbar {
     overflow: visible;
     clip: auto;
     position: absolute !important; } }
+.top-bar-section li.active.has-dropdown:not(.has-form) > a:not(.button) {
+  background-color: #cdde47;
+  color: #4D5B46; }
+
 .text-left {
   text-align: left !important; }
 
@@ -4809,11 +4815,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: #de7047;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #d65626; }
   a img {
     border: none; }
 
@@ -5095,6 +5101,10 @@ blockquote p {
 
   .show-for-print {
     display: inherit !important; } }
+.top-bar-section li.active.has-dropdown:not(.has-form) > a:not(.button) {
+  background-color: #cdde47;
+  color: #4D5B46; }
+
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
   position: relative;
@@ -5671,22 +5681,84 @@ textarea {
   font-weight: light;
   padding: 3px 0 3px 5px; }
 
+.category_head {
+  height: 100px;
+  width: 100%;
+  position: relative; }
+  .category_head img {
+    position: absolute;
+    bottom: -40px;
+    left: -25px; }
+
 .row1 {
   width: 202px;
-  margin-bottom: 20px; }
+  margin: 0px 5px 30px; }
 
 .row2 {
   width: 202px;
-  margin-bottom: 20px; }
+  margin: 0px 5px 30px; }
 
 .row3 {
   width: 202px;
-  margin-bottom: 20px; }
+  margin: 0px 5px 30px; }
 
 .meal_desc {
-  border: 1px black solid; }
+  border: 1px #DE7047 solid; }
   .meal_desc h2 {
-    font-size: 20px; }
+    font-family: Nexa Light;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px; }
+
+.filter_container h1 {
+  margin: 0px;
+  background-color: #FCE8BE;
+  padding: 15px 0px 0px 10px;
+  font-size: 18px;
+  font-family: Nexa Bold; }
+.filter_container .filter {
+  border: 8px #FCE8BE solid; }
+
+.button {
+  display: list-item;
+  background: none;
+  color: black;
+  padding-left: 10px;
+  font-family: Nexa Light;
+  font-size: 18px; }
+
+.button:hover {
+  background-color: #cdde47; }
+
+.button:active {
+  background-color: #4d5b46; }
+
+.is-checked {
+  background-color: white; }
+
+.categories {
+  margin-top: 95px;
+  height: 340px; }
+  .categories h2 {
+    background-color: #de7047;
+    font-family: Nexa Light;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 5px; }
+  .categories a {
+    color: black; }
+  .categories p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Nexa Light;
+    font-size: 16px; }
+
+.recipe_head h1 {
+  background-color: rgba(222, 112, 71, 0.76);
+  font-family: Nexa Bold;
+  font-size: 28px;
+  width: 100%; }
 
 /* ==========================================================================
    Media Queries

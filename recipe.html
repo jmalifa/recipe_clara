@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--TOP CONTAINER-->
+
+        <div class="top-container">
+            <div class="row">
+                <div class="small-4 columns">
+                    <div class="empty">
+                    </div>
+                </div>
+                <div class="small-4 columns header_title">
+                     <div class="logo">
+                        <img src="assets/img/logo.png">
+                    </div>
+                </div>
+                <div class="small-4 columns">
+                    <div class="social">
+                        <a href="http://wwww.twitter.com"</a><img src="assets/img/twitter_icon.png">
+                        <a href="http://www.facebook.com"></a><img src="assets/img/facebook_icon.png">
+                        <a href="http://www.instagram.com"></a><img src="assets/img/instagram_icon.png">
+                        <a href="http://www.google.com"></a><img src="assets/img/googleplus_icon.png">
+                        <a href="http://www.tumbler.com"></a><img src="assets/img/tumbler_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="small-4 small-centered columns">
+               
+            </div>
+        </div>
+
+        <!--NAVIGATION-->
+
+        <div class="contain-to-grid">
+            <nav class="top-bar" data-topbar>
+               <section class="top-bar-section">
+                    <!-- LEFT nav Section -->
+                        
+                    <ul class="left">
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li class="has-dropdown active">
+                            <a href="#">Daily Recipe</a>
+                            <ul class="dropdown">
+                                <li><a href="recipe_filter.html">Breakfast/Brunch</a></li>
+                                <li><a href="recipe_filter.html">Lunch</a></li>
+                                <li><a href="recipe_filter.html">Dinner</a></li>
+                                <li><a href="recipe_filter.html">Dessert</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Articles</a></li>
+                     </ul>
+
+                    
+                    <!-- Right Nav Section  -->
+                    <ul class="right">
+                       <li class="has-form">
+                            <div class="row collapse">
+                                <div class="large-8 small-9 columns">
+                                    <input type="text" placeholder="Search Recipes">
+                                </div>
+                                <div class="large-4 small-3 columns">
+                                    <a href="#" class="alert button expand"><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+    
+                </section>
+            </nav>
+        </div>
+
+        <!--CONTENT-->
+
+        <div class="row">
+            <div class="small-12 columns">
+                <div class="recipe_head">
+                    <img src="assets/img/recipe_main.jpg">
+                    <h1>Pepper-chilli beef grill with carrot salad.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-8 columns">
+                <div class="caption">
+                    <p>Cook this mouth watering pepper-chilli beef grill recipe with carrot salad in under 30-minues </p>
+                </div>
+                <dl class="tabs" data-tab>
+                  <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
+                  <dd><a href="#panel2-2">Tab 2</a></dd>
+                </dl>
+                <div class="tabs-content">
+                  <div class="content active" id="panel2-1">
+                    <p>First panel content goes here...</p>
+                  </div>
+                  <div class="content" id="panel2-2">
+                    <p>Second panel content goes here...</p>
+                  </div>
+                </div>
+            <div class="small-4 columns"></div>
+        </div>
+           
+      
+          
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></li></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/foundation.js"></script>
+        <script src="assets/js/foundation.topbar.js"></script>
+        <script src="assets/js/foundation.orbit.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        <script>
+            $(document).foundation({
+                orbit: {
+
+                    slide_number: false,
+                    bullets: false,
+                    timer_container_class: 'none', 
+                    timer_paused_class: 'none'
+                }
+            });
+
+            var $container = $('#container');
+            // init
+            $container.isotope({
+            // options
+                itemSelector: '.food',
+                layoutMode: 'fitRows'
+            });
+            $('#filters').on( 'click', 'button', function() {
+              var filterValue = $(this).attr('data-filter');
+              $container.isotope({ filter: filterValue });
+            });
+
+            $('#myTabs').on('toggled', function (event, tab) {
+            console.log(tab);
+            });
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
