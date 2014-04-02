@@ -5754,11 +5754,15 @@ textarea {
     font-family: Nexa Light;
     font-size: 16px; }
 
+.recipe_head img {
+  position: relative; }
 .recipe_head h1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   background-color: rgba(222, 112, 71, 0.76);
   font-family: Nexa Bold;
-  font-size: 28px;
-  width: 100%; }
+  font-size: 28px; }
 
 /* ==========================================================================
    Media Queries

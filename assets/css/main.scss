@@ -295,12 +295,16 @@ $third-color:#4D5B46;
 }
 
 .recipe_head {
-    
+    img {
+        position:relative;
+    }
     h1 {
+        position:absolute;
+        left:0px;
+        top:0px;
         background-color:rgba(222,112,71,0.76);
         font-family:Nexa Bold;
         font-size:28px;
-        width:100%;
     }
    
 
