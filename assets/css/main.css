@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -4066,9 +4067,9 @@ table {
       display: block;
       background: #fcf0db;
       color: #222222;
-      padding: 0.625rem 1.25rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      font-size: 1rem; }
+      padding: 0.4375rem 0.875rem;
+      font-family: Nexa Bold;
+      font-size: 1.125rem; }
       .tabs dd > a:hover {
         background: #fae5c1; }
     .tabs dd.active a {
@@ -4097,7 +4098,7 @@ table {
   .tabs-content > .content {
     display: none;
     float: left;
-    padding: 0.9375rem 0;
+    padding: 20px;
     width: 100%; }
     .tabs-content > .content.active {
       display: block;
@@ -4431,7 +4432,7 @@ meta.foundation-mq-topbar {
     background: #cdde47;
     color: #de7047; }
   .top-bar-section ul li.active > a {
-    background: #4d5b46;
+    background: rgba(77, 91, 70, 0.95);
     color: white; }
     .top-bar-section ul li.active > a:hover {
       background: #4d5b46;
@@ -4553,7 +4554,7 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #4d5b46; }
+      background: rgba(77, 91, 70, 0.95); }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #4d5b46;
         color: #cdde47; }
@@ -4624,7 +4625,7 @@ meta.foundation-mq-topbar {
     background: #cdde47;
     color: #de7047; }
   .no-js .top-bar-section ul li:active > a {
-    background: #4d5b46;
+    background: rgba(77, 91, 70, 0.95);
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -5599,6 +5600,8 @@ textarea {
     margin-top: 10px; }
     .top-container .social a {
       margin: 0 5px; }
+      .top-container .social a i {
+        color: #FF9933; }
   .top-container .logo {
     position: relative;
     height: 125px; }
@@ -5606,6 +5609,18 @@ textarea {
       position: absolute;
       bottom: 0px;
       left: 63px; }
+
+.left .dropdown li:nth-child(3) {
+  border-top: 1px solid white; }
+.left .dropdown li:nth-child(4) {
+  border-top: 1px solid white; }
+.left .dropdown li:nth-child(5) {
+  border-top: 1px solid white; }
+
+.has-form .alert {
+  background-color: #4d5b46; }
+.has-form .alert:hover {
+  background-color: #de7047; }
 
 .todays_recipe {
   margin-top: 45px;
@@ -5747,6 +5762,17 @@ textarea {
     font-size: 28px;
     width: 100%;
     padding: 10px; }
+  .recipe_head .rating {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    color: white;
+    direction: rtl;
+    unicode-bidi: bidi-override; }
+  .recipe_head .rating > i:hover:before,
+  .recipe_head .rating > i:hover ~ i:before {
+    color: yellow; }
 
 .caption p {
   font-family: Nexa Bold;
@@ -5757,26 +5783,102 @@ textarea {
 
 .content {
   background-color: #FCE8BE; }
+  .content h4 {
+    font-family: Nexa Bold;
+    font-size: 15px; }
+  .content p {
+    font-family: Nexa Light;
+    font-size: 15px; }
 
-.cooking_info {
+.review_comments {
+  height: 200px;
+  background-color: #FCE8BE;
+  margin-bottom: 100px; }
+  .review_comments h3 {
+    font-size: 1.125rem;
+    font-family: Nexa Bold;
+    padding: 0.4375rem 0.875rem; }
+
+.row .row.collapse {
+  margin-top: 20px; }
+  .row .row.collapse .cooking_info {
+    background-color: #de7047;
+    text-align: center;
+    padding-top: 5px; }
+    .row .row.collapse .cooking_info h2 {
+      font-family: Nexa Bold;
+      font-size: 30px;
+      color: white;
+      margin-bottom: 0px; }
+    .row .row.collapse .cooking_info p {
+      font-family: Nexa Light;
+      font-size: 14px;
+      border-bottom: 1px white solid;
+      padding-bottom: 7px; }
+  .row .row.collapse .left_side {
+    border-right: 1px white solid; }
+    .row .row.collapse .left_side i {
+      margin-left: 10px;
+      color: white; }
+    .row .row.collapse .left_side p {
+      margin-left: 10px;
+      color: #FCE9C3; }
+  .row .row.collapse .right_side i {
+    margin-right: 10px;
+    color: white; }
+  .row .row.collapse .right_side p {
+    margin-right: 10px;
+    color: #FCE9C3; }
+  .row .row.collapse .right_side .rating {
+    font-size: 20px;
+    letter-spacing: -5px;
+    color: white;
+    display: inline;
+    direction: rtl;
+    unicode-bidi: bidi-override; }
+  .row .row.collapse .right_side .rating > i:hover:before,
+  .row .row.collapse .right_side .rating > i:hover ~ i:before {
+    color: yellow; }
+
+.social_icons {
   background-color: #de7047;
   text-align: center; }
-  .cooking_info h2 {
+  .social_icons i {
+    color: white; }
+  .social_icons i:hover {
+    color: #4d5b46; }
+  .social_icons h2 {
     font-family: Nexa Bold;
-    font-size: 30px; }
-  .cooking_info p {
-    font-family: Nexa Bold;
-    font-size: 14px; }
+    font-size: 14px;
+    color: white;
+    padding-bottom: 10px;
+    width: 100%; }
 
 .may_like {
   height: 200px;
   width: 100%;
-  background-color: #FCE8BE; }
+  background-color: #FCE8BE;
+  margin-top: 20px; }
+  .may_like h4 {
+    font-family: Nexa Light;
+    font-size: 17px;
+    color: white;
+    background-color: #de7047;
+    width: 100%;
+    text-align: center;
+    padding: 5px; }
 
 .ad {
   height: 200px;
   width: 100%;
-  background-color: #FCE8BE; }
+  border: 1px solid black;
+  margin-top: 20px; }
+  .ad h4 {
+    font-family: Nexa Light;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    padding: 5px; }
 
 /* ==========================================================================
    Media Queries

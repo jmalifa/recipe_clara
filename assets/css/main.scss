@@ -90,6 +90,10 @@ $third-color:#4D5B46;
         a {
             margin:0 5px;
 
+            i {
+                color:#FF9933;
+            }
+
         }
     }
 
@@ -106,6 +110,34 @@ $third-color:#4D5B46;
     }
     
 }
+
+.left {
+
+    .dropdown {
+        li:nth-child(3) {
+            border-top:1px solid white;
+        }
+        li:nth-child(4) {
+            border-top:1px solid white;
+        }
+        li:nth-child(5) {
+            border-top:1px solid white;
+        }
+    }
+}
+    
+
+.has-form {
+    .alert {
+        background-color:$third-color;
+    }
+
+    .alert:hover {
+        background-color:$primary-color;
+    }
+}
+
+
 
 
 .todays_recipe {
@@ -307,9 +339,28 @@ $third-color:#4D5B46;
         font-size:28px;
         width:100%;
         padding:10px;
-    }
-   
 
+
+    }
+
+    .rating {
+            position:absolute;
+            right:0px;
+            top:0px;
+            padding:10px;
+            color:white;
+            direction: rtl;
+            unicode-bidi: bidi-override;
+
+
+    }
+
+    .rating > i:hover:before,
+    .rating > i:hover ~ i:before {
+       color:yellow;
+    }
+
+   
 }
 
 .caption {
@@ -325,31 +376,157 @@ $third-color:#4D5B46;
 }
 .content {
     background-color: #FCE8BE;
-}
-.cooking_info {
-    background-color: $primary-color;
-    text-align: center;
-    h2 {
+
+    h4 {
         font-family:Nexa Bold;
-        font-size:30px;
+        font-size:15px;
     }
 
     p {
+        font-family:Nexa Light;
+        font-size:15px;
+    }
+}
+
+.review_comments {
+    height:200px;
+    background-color: #FCE8BE;
+    margin-bottom:100px;
+
+    h3 {
+        font-size:$tabs-navigation-font-size;
+        font-family:Nexa Bold;
+        padding:0.4375rem 0.875rem;
+    }
+}
+
+.row .row.collapse {
+    margin-top:20px;
+    .cooking_info {
+        background-color: $primary-color;
+        text-align: center;
+        padding-top:5px;
+
+
+
+        h2 {
+            font-family:Nexa Bold;
+            font-size:30px;
+            color:white;
+            margin-bottom:0px;
+        }
+
+        p {
+            font-family:Nexa Light;
+            font-size:14px;
+            border-bottom:1px white solid;
+            padding-bottom:7px;
+
+
+        }
+    }
+
+    .left_side {
+        border-right:1px white solid;
+        i {
+            margin-left:10px;
+            color:white;
+            
+        }
+
+        p {
+            margin-left:10px;
+            color:#FCE9C3;
+        }
+    }
+
+    .right_side {
+
+        i {
+            margin-right:10px;
+            color:white;
+            
+        }
+
+        p {
+            margin-right:10px;
+            color:#FCE9C3;
+        }
+
+        .rating {
+            font-size:20px;
+            letter-spacing:-5px;
+            color:white;
+            display:inline;
+            direction: rtl;
+            unicode-bidi: bidi-override;
+
+        }
+
+        .rating > i:hover:before,
+        .rating > i:hover ~ i:before {
+           color:yellow;
+        }
+
+        
+
+    }
+}
+
+.social_icons {
+    background-color: $primary-color;
+    text-align: center;
+
+    i {
+        color:white;
+    }
+
+    i:hover {
+        color: $third-color;
+    }
+    h2 {
+
         font-family:Nexa Bold;
         font-size:14px;
+        color:white;
+        padding-bottom:10px;
+        width:100%;
     }
+
 }
 
 .may_like {
     height:200px;
     width:100%;
     background-color: #FCE8BE;
+    margin-top:20px;
+    h4 {
+        font-family:Nexa Light;
+        font-size:17px;
+        color:white;
+        background-color:$primary-color;
+        width:100%;
+        text-align:center;
+        padding:5px;
+    }
 }
 
 .ad {
+    
+ 
     height:200px;
     width:100%;
-    background-color: #FCE8BE;
+    border:1px solid black;
+    margin-top:20px;
+
+    h4 {
+        font-family:Nexa Light;
+        font-size:17px;
+        width:100%;
+        text-align:center;
+        padding:5px;
+
+    }
 
 }
 /* ==========================================================================
