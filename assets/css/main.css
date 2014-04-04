@@ -4353,8 +4353,8 @@ meta.foundation-mq-topbar {
     color: #4d5b46;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-size: 0.8125rem;
+    font-family: Nexa Light;
+    font-size: 17px;
     font-weight: normal;
     text-transform: none;
     background: #4d5b46; }
@@ -4432,10 +4432,10 @@ meta.foundation-mq-topbar {
     background: #cdde47;
     color: #de7047; }
   .top-bar-section ul li.active > a {
-    background: rgba(77, 91, 70, 0.95);
-    color: white; }
+    background: white;
+    color: #4d5b46; }
     .top-bar-section ul li.active > a:hover {
-      background: #4d5b46;
+      background: white;
       color: #de7047; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -4553,10 +4553,10 @@ meta.foundation-mq-topbar {
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      color: white;
-      background: rgba(77, 91, 70, 0.95); }
+      color: #4d5b46;
+      background: white; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #4d5b46;
+        background: white;
         color: #cdde47; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
@@ -4588,11 +4588,11 @@ meta.foundation-mq-topbar {
       background: transparent;
       min-width: 100%; }
       .top-bar-section .dropdown li a {
-        color: white;
+        color: #4d5b46;
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #333333; }
+        background: #4d5b46; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: #333333; }
@@ -4625,8 +4625,8 @@ meta.foundation-mq-topbar {
     background: #cdde47;
     color: #de7047; }
   .no-js .top-bar-section ul li:active > a {
-    background: rgba(77, 91, 70, 0.95);
-    color: white; }
+    background: white;
+    color: #4d5b46; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
     position: static !important;
@@ -4635,9 +4635,9 @@ meta.foundation-mq-topbar {
     overflow: visible;
     clip: auto;
     position: absolute !important; } }
-.top-bar-section li.active.has-dropdown:not(.has-form) > a:not(.button) {
-  background-color: #cdde47;
-  color: #4D5B46; }
+.top-bar-section ul.dropdown {
+  background: #4d5b46;
+  color: #fff; }
 
 .text-left {
   text-align: left !important; }
@@ -5082,9 +5082,9 @@ blockquote p {
 
   .show-for-print {
     display: inherit !important; } }
-.top-bar-section li.active.has-dropdown:not(.has-form) > a:not(.button) {
-  background-color: #cdde47;
-  color: #4D5B46; }
+.top-bar-section ul.dropdown {
+  background: #4d5b46;
+  color: #fff; }
 
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
