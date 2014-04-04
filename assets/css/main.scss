@@ -94,6 +94,10 @@ $third-color:#4D5B46;
                 color:#FF9933;
             }
 
+            i:hover {
+                color:white;
+            }
+
         }
     }
 
@@ -126,7 +130,6 @@ $third-color:#4D5B46;
     }
 }
     
-
 .has-form {
     .alert {
         background-color:$third-color;
@@ -433,6 +436,9 @@ $third-color:#4D5B46;
             color:white;
             
         }
+        i:hover {
+            color:#FCE8BE;
+        }
 
         p {
             margin-left:10px;
@@ -446,6 +452,10 @@ $third-color:#4D5B46;
             margin-right:10px;
             color:white;
             
+        }
+
+        i:hover {
+            color:#FCE8BE;
         }
 
         p {
@@ -477,13 +487,16 @@ $third-color:#4D5B46;
     background-color: $primary-color;
     text-align: center;
 
-    i {
+    span > i {
         color:white;
     }
 
-    i:hover {
-        color: $third-color;
+    span > i:hover {
+        color: #FCE8BE;
     }
+
+
+
     h2 {
 
         font-family:Nexa Bold;

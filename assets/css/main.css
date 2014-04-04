@@ -5602,6 +5602,8 @@ textarea {
       margin: 0 5px; }
       .top-container .social a i {
         color: #FF9933; }
+      .top-container .social a i:hover {
+        color: white; }
   .top-container .logo {
     position: relative;
     height: 125px; }
@@ -5820,12 +5822,16 @@ textarea {
     .row .row.collapse .left_side i {
       margin-left: 10px;
       color: white; }
+    .row .row.collapse .left_side i:hover {
+      color: #FCE8BE; }
     .row .row.collapse .left_side p {
       margin-left: 10px;
       color: #FCE9C3; }
   .row .row.collapse .right_side i {
     margin-right: 10px;
     color: white; }
+  .row .row.collapse .right_side i:hover {
+    color: #FCE8BE; }
   .row .row.collapse .right_side p {
     margin-right: 10px;
     color: #FCE9C3; }
@@ -5843,10 +5849,10 @@ textarea {
 .social_icons {
   background-color: #de7047;
   text-align: center; }
-  .social_icons i {
+  .social_icons span > i {
     color: white; }
-  .social_icons i:hover {
-    color: #4d5b46; }
+  .social_icons span > i:hover {
+    color: #FCE8BE; }
   .social_icons h2 {
     font-family: Nexa Bold;
     font-size: 14px;
