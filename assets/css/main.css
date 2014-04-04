@@ -5585,16 +5585,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 @font-face {
-  font-family: 'nexa_lightregular';
-  src: url("../font/Nexa_Free_Light-webfont.eot");
-  src: url("../font/Nexa_Free_Light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Nexa_Free_Light-webfont.woff") format("woff"), url("../font/Nexa_Free_Light-webfont.ttf") format("truetype"), url("../font/Nexa_Free_Light-webfont.svg#nexa_lightregular") format("svg");
+  font-family: 'nexa_boldregular';
+  src: url("../font/nexa_bold-webfont.eot");
+  src: url("../font/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/nexa_bold-webfont.woff") format("woff"), url("../font/nexa_bold-webfont.ttf") format("truetype"), url("../font/nexa_bold-webfont.svg#nexa_boldregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'nexa_boldregular';
-  src: url("../font/Nexa_Free_Bold-webfont.eot");
-  src: url("../font/Nexa_Free_Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Nexa_Free_Bold-webfont.woff") format("woff"), url("../font/Nexa_Free_Bold-webfont.ttf") format("truetype"), url("../font/Nexa_Free_Bold-webfont.svg#nexa_boldregular") format("svg");
+  font-family: 'nexa_lightregular';
+  src: url("../font/nexa_light-webfont.eot");
+  src: url("../font/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/nexa_light-webfont.woff") format("woff"), url("../font/nexa_light-webfont.ttf") format("truetype"), url("../font/nexa_light-webfont.svg#nexa_lightregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -5650,12 +5650,12 @@ textarea {
     font-size: 18px;
     color: white;
     margin: 0px;
-    font-family: 'NexaLight';
+    font-family: 'nexa_lightregular';
     font-weight: light;
     padding: 3px 0 3px 5px; }
 
 .best_recipe_title h1 {
-  font-family: Nexa Bold;
+  font-family: 'nexa_boldregular';
   font-size: 30px;
   text-align: center;
   margin-top: 45px; }
@@ -5688,7 +5688,7 @@ textarea {
   font-size: 18px;
   color: white;
   margin: 0px;
-  font-family: NexaLight;
+  font-family: 'nexa_lightregular';
   font-weight: light;
   padding: 3px 0 3px 5px; }
 
@@ -5726,7 +5726,7 @@ textarea {
   background-color: #FCE8BE;
   padding: 15px 0px 0px 10px;
   font-size: 18px;
-  font-family: Nexa Bold; }
+  font-family: 'nexa_boldregular'; }
 .filter_container .filter {
   border: 8px #FCE8BE solid; }
 
@@ -5774,7 +5774,7 @@ textarea {
     left: 0px;
     top: 0px;
     background-color: rgba(222, 112, 71, 0.76);
-    font-family: Nexa Bold;
+    font-family: 'nexa_boldregular';
     font-size: 28px;
     width: 100%;
     padding: 10px; }
@@ -5791,7 +5791,7 @@ textarea {
     color: yellow; }
 
 .caption p {
-  font-family: Nexa Bold;
+  font-family: 'nexa_boldregular';
   font-size: 19px;
   text-align: center;
   color: #4D5B46;
@@ -5800,7 +5800,7 @@ textarea {
 .content {
   background-color: #FCE8BE; }
   .content h4 {
-    font-family: Nexa Bold;
+    font-family: 'nexa_boldregular';
     font-size: 15px; }
   .content p {
     font-family: Nexa Light;
@@ -5812,7 +5812,7 @@ textarea {
   margin-bottom: 100px; }
   .review_comments h3 {
     font-size: 1.125rem;
-    font-family: Nexa Bold;
+    font-family: 'nexa_boldregular';
     padding: 0.4375rem 0.875rem; }
 
 .row .row.collapse {
@@ -5822,7 +5822,7 @@ textarea {
     text-align: center;
     padding-top: 5px; }
     .row .row.collapse .cooking_info h2 {
-      font-family: Nexa Bold;
+      font-family: 'nexa_boldregular';
       font-size: 30px;
       color: white;
       margin-bottom: 0px; }
@@ -5868,7 +5868,7 @@ textarea {
   .social_icons span > i:hover {
     color: #FCE8BE; }
   .social_icons h2 {
-    font-family: Nexa Bold;
+    font-family: 'nexa_boldregular';
     font-size: 14px;
     color: white;
     padding-bottom: 10px;
