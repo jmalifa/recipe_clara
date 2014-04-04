@@ -5716,7 +5716,7 @@ textarea {
 .meal_desc {
   border: 1px #DE7047 solid; }
   .meal_desc h2 {
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 16px;
     text-align: center;
     padding-top: 10px; }
@@ -5732,19 +5732,16 @@ textarea {
 
 .button {
   display: list-item;
-  background: none;
+  background-color: white;
   color: black;
   padding-left: 10px;
-  font-family: Nexa Light;
+  font-family: 'nexa_lightregular';
   font-size: 18px; }
 
 .button:hover {
   background-color: #cdde47; }
 
 .button:active {
-  background-color: #4d5b46; }
-
-.is-checked {
   background-color: white; }
 
 .categories {
@@ -5752,7 +5749,7 @@ textarea {
   height: 340px; }
   .categories h2 {
     background-color: #de7047;
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     text-align: center;
     font-size: 18px;
     color: white;
@@ -5762,7 +5759,7 @@ textarea {
   .categories p {
     margin-top: 20px;
     text-align: center;
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 16px; }
 
 .recipe_head {
@@ -5803,7 +5800,7 @@ textarea {
     font-family: 'nexa_boldregular';
     font-size: 15px; }
   .content p {
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 15px; }
 
 .review_comments {
@@ -5827,7 +5824,7 @@ textarea {
       color: white;
       margin-bottom: 0px; }
     .row .row.collapse .cooking_info p {
-      font-family: Nexa Light;
+      font-family: 'nexa_lightregular';
       font-size: 14px;
       border-bottom: 1px white solid;
       padding-bottom: 7px; }
@@ -5880,7 +5877,7 @@ textarea {
   background-color: #FCE8BE;
   margin-top: 20px; }
   .may_like h4 {
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 17px;
     color: white;
     background-color: #de7047;
@@ -5894,7 +5891,7 @@ textarea {
   border: 1px solid black;
   margin-top: 20px; }
   .ad h4 {
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 17px;
     width: 100%;
     text-align: center;

@@ -284,7 +284,7 @@ $third-color:#4D5B46;
     border:1px #DE7047 solid;
 
     h2 {
-        font-family:Nexa Light;
+        font-family:'nexa_lightregular';
         font-size:16px;
         text-align:center;
         padding-top:10px;
@@ -310,10 +310,10 @@ $third-color:#4D5B46;
 
 .button {
     display:list-item;
-    background: none;   
+    background-color: white;   
     color:black;
     padding-left:10px;
-    font-family:Nexa Light;
+    font-family:'nexa_lightregular';
     font-size:18px;
 
 
@@ -324,12 +324,9 @@ $third-color:#4D5B46;
 }
 
 .button:active {
-    background-color:$third-color;
-}
-
-.is-checked {
     background-color:white;
 }
+
 
 .categories {
     margin-top:95px;
@@ -337,7 +334,7 @@ $third-color:#4D5B46;
 
     h2 {
     background-color:$primary-color;
-    font-family:Nexa Light;
+    font-family:'nexa_lightregular';
     text-align:center;
     font-size:18px;
     color:white;
@@ -351,7 +348,7 @@ $third-color:#4D5B46;
         p {
         margin-top:20px;
         text-align:center;
-        font-family:Nexa Light;
+        font-family:'nexa_lightregular';
         font-size:16px;
         }
 }
@@ -413,7 +410,7 @@ $third-color:#4D5B46;
     }
 
     p {
-        font-family:Nexa Light;
+        font-family:'nexa_lightregular';
         font-size:15px;
     }
 }
@@ -447,7 +444,7 @@ $third-color:#4D5B46;
         }
 
         p {
-            font-family:Nexa Light;
+            font-family:'nexa_lightregular';
             font-size:14px;
             border-bottom:1px white solid;
             padding-bottom:7px;
@@ -541,7 +538,7 @@ $third-color:#4D5B46;
     background-color: #FCE8BE;
     margin-top:20px;
     h4 {
-        font-family:Nexa Light;
+        font-family:'nexa_lightregular';
         font-size:17px;
         color:white;
         background-color:$primary-color;
@@ -560,7 +557,7 @@ $third-color:#4D5B46;
     margin-top:20px;
 
     h4 {
-        font-family:Nexa Light;
+        font-family:'nexa_lightregular';
         font-size:17px;
         width:100%;
         text-align:center;
