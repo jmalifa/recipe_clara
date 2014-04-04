@@ -4068,7 +4068,7 @@ table {
       background: #fcf0db;
       color: #222222;
       padding: 0.4375rem 0.875rem;
-      font-family: Nexa Bold;
+      font-family: "nexa_boldregular";
       font-size: 1.125rem; }
       .tabs dd > a:hover {
         background: #fae5c1; }
@@ -4353,7 +4353,7 @@ meta.foundation-mq-topbar {
     color: #4d5b46;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: Nexa Light;
+    font-family: 'nexa_lightregular';
     font-size: 17px;
     font-weight: normal;
     text-transform: none;
