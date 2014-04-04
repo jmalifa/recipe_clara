@@ -65,6 +65,31 @@ $third-color:#4D5B46;
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('../font/Nexa_Free_Light-webfont.eot');
+    src: url('../font/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Nexa_Free_Light-webfont.woff') format('woff'),
+         url('../font/Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('../font/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../font/Nexa_Free_Bold-webfont.eot');
+    src: url('../font/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('../font/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('../font/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 /*------TOP CONTAINER--------*/
