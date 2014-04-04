@@ -5627,11 +5627,11 @@ textarea {
       left: 63px; }
 
 .left .dropdown li:nth-child(3) {
-  border-top: 1px solid white; }
+  border-top: 1px solid #4d5b46; }
 .left .dropdown li:nth-child(4) {
-  border-top: 1px solid white; }
+  border-top: 1px solid #4d5b46; }
 .left .dropdown li:nth-child(5) {
-  border-top: 1px solid white; }
+  border-top: 1px solid #4d5b46; }
 
 .has-form .alert {
   background-color: #4d5b46; }

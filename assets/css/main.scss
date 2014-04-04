@@ -146,13 +146,13 @@ $third-color:#4D5B46;
 
     .dropdown {
         li:nth-child(3) {
-            border-top:1px solid white;
+            border-top:1px solid $third-color;
         }
         li:nth-child(4) {
-            border-top:1px solid white;
+            border-top:1px solid $third-color;
         }
         li:nth-child(5) {
-            border-top:1px solid white;
+            border-top:1px solid $third-color;
         }
     }
 }
